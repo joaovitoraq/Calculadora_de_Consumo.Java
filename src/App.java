@@ -66,6 +66,7 @@ public class App {
     public String getInfo() {
         return "Nome do aparelho: " + aparelho + "\n" +
                 "Tempo médio de uso: " + temp_uso + " horas\n" +
+                "Dias por mês: " + diasMes + "Dias\n" +
                 "Consome: " + watts + " Watts \n" +
                 "Gasto mensal: " + valorFormatado;
     }
